@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог картин - Нейросетевые картины купить</title>
+    <meta name="description" content="Каталог нейросетевых картин по категориям: абстракция, пейзаж, портрет, городские пейзажи. Уникальные работы созданные ИИ.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ресурсы/css/styles.css">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <a href="../index.html" class="logo">
+                    <span class="logo-text">купить-картины.рф</span>
+                    <span class="logo-subtitle">нейросетевые картины для интерьера</span>
+                </a>
+                
+                <div class="header-ai-button">
+                    <a href="https://t.me/ваш_бот" target="_blank" class="ai-button-header">
+                        <span class="ai-icon">🤖</span>
+                        <span class="ai-text">ИИ-помощник</span>
+                    </a>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Меню">☰</button>
+                <ul class="nav-list">
+                    <li><a href="../index.html" class="nav-link">Главная</a></li>
+                    <li><a href="index.html" class="nav-link active">Каталог</a></li>
+                    <li><a href="../коллекции/index.html" class="nav-link">Коллекции</a></li>
+                    <li><a href="../комнаты/index.html" class="nav-link">Для комнат</a></li>
+                    <li><a href="../услуги/index.html" class="nav-link">Услуги</a></li>
+                    <li><a href="../о-нас/index.html" class="nav-link">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Каталог нейросетевых картин</h1>
+            
+            <div class="ai-button-container">
+                <a href="https://t.me/ваш_бот" target="_blank" class="ai-button">
+                    <span class="ai-icon">🎯</span>
+                    <span>Не знаете что выбрать? ИИ подберет картину под ваш интерьер!</span>
+                </a>
+                <p class="ai-button-note">Ответим за 5 минут, бесплатно</p>
+            </div>
+            
+            <section class="content-section">
+                <h2>Абстрактные картины</h2>
+                <p>Нейросети создают удивительные абстракции, которые станут ярким акцентом в любом интерьере.</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in">
+                        <img src="../ресурсы/изображения/placeholder1.jpg" alt="Абстракция 'Гармония цвета'" loading="lazy">
+                        <div class="gallery-caption">
+                            <h3>Гармония цвета</h3>
+                            <button class="btn-secondary">Обсудить с ИИ</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>купить-картины.рф</h3>
+                    <p>Уникальные нейросетевые картины для вашего интерьера</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> купить-картины.рф</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../ресурсы/js/main.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
